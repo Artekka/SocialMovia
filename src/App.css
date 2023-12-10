@@ -1,12 +1,13 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.card {
+.cardBody {
   padding: 2em;
+  background-color: white;
 }
 
 .cardMain {
@@ -15,7 +16,10 @@
 
 .cardBox {
   background-color: lightpink;
-  max-width: 400px;
+  max-width: 500px;
+  min-width: 400px;
+  max-height: 500px;
+  margin: 2em;
 }
 
 .read-the-docs {
