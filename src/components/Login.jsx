@@ -1,5 +1,9 @@
 const Login = () => {
+    fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+   .then(response => response.json())
+   .then(data => console.log(data));
     return (
+        
         <div className="d-flex flex-column align-items-center">
         <form id="loginForm" className="">
             <div className="form-group">
